@@ -114,8 +114,7 @@ def aboutus():
     # create child window
     win = tk.Toplevel()
     # display message
-    message = "This project is done by a group of student of section K17BN\nName              Roll no          Registration No\nDebasis Jana     05             11701186\nRakesh Kushwaha   06      11701136\nDurga Prasad    04        11703401"
-   
+    message = "This project is done by Debasis Jana, student of Lovely Professional University of \nComputer Science and Engineering Department"
     tk.Label(win, text=message).pack()
     # quit child window and return to root window
     # the button is optional here, simply use the corner x of the child window
